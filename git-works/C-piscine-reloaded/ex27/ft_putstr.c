@@ -1,25 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_count_if.c                                      :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pnarvaez <pnarvaez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/21 12:05:27 by pnarvaez          #+#    #+#             */
-/*   Updated: 2026/05/21 12:31:35 by pnarvaez         ###   ########.fr       */
+/*   Created: 2026/05/19 13:13:03 by pnarvaez          #+#    #+#             */
+/*   Updated: 2026/05/21 12:42:40 by pnarvaez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_count_if(char **tab, int (*f)(char*))
-{
-	int	counted;
+#include "lib.h"
 
-	counted = 0;
-	while (*tab)
-	{
-		if ((*f)(*tab) == 1)
-			counted++;
-		tab++;
-	}
-	return (counted);
+void	ft_putstr(char *str)
+{
+	while (*str)
+		write(1, str++, 1);
 }
