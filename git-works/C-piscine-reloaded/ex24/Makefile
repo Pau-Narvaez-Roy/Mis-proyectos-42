@@ -6,7 +6,7 @@
 #    By: pnarvaez <pnarvaez@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/19 16:26:53 by pnarvaez          #+#    #+#              #
-#    Updated: 2026/05/21 11:17:48 by pnarvaez         ###   ########.fr        #
+#    Updated: 2026/05/21 15:04:13 by pnarvaez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ RN = ranlib
 RM = rm -f
 
 .c.o:
-	@$(CC) $(FLAGS) -c $< -o ${<:.c=.o}
+	@$(CC) $(CFLAGS) -c $< -o ${<:.c=.o}
 
 # Make 
 $(NAME): $(OBJECTS)
