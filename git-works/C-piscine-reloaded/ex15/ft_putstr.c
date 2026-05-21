@@ -6,14 +6,14 @@
 /*   By: pnarvaez <pnarvaez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/19 13:13:03 by pnarvaez          #+#    #+#             */
-/*   Updated: 2026/05/19 13:19:47 by pnarvaez         ###   ########.fr       */
+/*   Updated: 2026/05/21 14:56:36 by pnarvaez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void	ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {
 	while (*str)
-		write(1, str++, 1);
+		ft_putchar(*str++);
 }

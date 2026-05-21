@@ -6,9 +6,11 @@
 /*   By: pnarvaez <pnarvaez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/19 13:20:36 by pnarvaez          #+#    #+#             */
-/*   Updated: 2026/05/19 15:46:44 by pnarvaez         ###   ########.fr       */
+/*   Updated: 2026/05/21 13:25:22 by pnarvaez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+void	ft_putchar(char c);
 
 int	main(int argc, char **argv)
 {

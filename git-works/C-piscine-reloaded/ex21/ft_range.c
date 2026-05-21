@@ -6,11 +6,11 @@
 /*   By: pnarvaez <pnarvaez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/19 15:54:37 by pnarvaez          #+#    #+#             */
-/*   Updated: 2026/05/19 15:55:06 by pnarvaez         ###   ########.fr       */
+/*   Updated: 2026/05/21 14:34:30 by pnarvaez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include <stdlib.h>
 
 int	*ft_range(int min, int max)
 {

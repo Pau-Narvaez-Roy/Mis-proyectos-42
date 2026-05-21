@@ -6,9 +6,11 @@
 /*   By: pnarvaez <pnarvaez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/19 15:29:24 by pnarvaez          #+#    #+#             */
-/*   Updated: 2026/05/19 16:16:11 by pnarvaez         ###   ########.fr       */
+/*   Updated: 2026/05/21 15:18:56 by pnarvaez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+void	ft_putchar(char c);
 
 int	ft_strcmp(char *s1, char *s2)
 {
@@ -43,7 +45,7 @@ int	main(int argc, char **argv)
 	while (j < argc)
 	{
 		while (*argv[j])
-			ft_putchar(argv[j]++);
+			ft_putchar(*argv[j]++);
 		ft_putchar('\n');
 		j++;
 	}

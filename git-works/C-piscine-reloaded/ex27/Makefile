@@ -6,32 +6,25 @@
 #    By: pnarvaez <pnarvaez@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/19 16:26:53 by pnarvaez          #+#    #+#              #
-#    Updated: 2026/05/21 12:51:24 by pnarvaez         ###   ########.fr        #
+#    Updated: 2026/05/21 15:43:14 by pnarvaez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ft_display_file
 
-SOURCES = ./ft_putstr.c
-
-HEAD = ./lib.h
+SOURCES = ./ft_display_file.c
 
 OBJECTS = $(SOURCES:.c=.o)
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
-AR = ar rcs
-RN = ranlib
-RM = rm -f
 
-.c.o:
-	@$(CC) $(FLAGS) -c $< -o ${<:.c=.o}
-
-# Make 
 $(NAME): $(OBJECTS)
 	@echo "Compiling...."
-	@$(AR) $(NAME) $(OBJECTS)
-	@${RN} ${NAME}
+	@$(CC) $(CFLAGS) -o $(NAME) $(OBJECTS)
+
+$(OBJECTS):
+	@$(CC) $(CFLAGS) -o $(OBJECTS) -c $(SOURCES)
 
 all: $(NAME)
 
@@ -41,6 +34,4 @@ clean:
 fclean: clean
 	$(RM) $(NAME)
 
-re:	fclean all
-
-.PHONY: all clean fclean re
+.PHONY: all clean fclean
