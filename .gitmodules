@@ -4,3 +4,6 @@
 [submodule "Libft"]
 	path = Libft
 	url = git@github.com:Pau-Narvaez-Roy/Libft.git
+[submodule "Piscina"]
+	path = Piscina
+	url = git@github.com:Pau-Narvaez-Roy/Piscina.git
