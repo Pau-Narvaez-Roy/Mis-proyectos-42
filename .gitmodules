@@ -1,0 +1,3 @@
+[submodule "C-piscine-reloaded"]
+	path = C-piscine-reloaded
+	url = git@github.com:Pau-Narvaez-Roy/C-piscine-reloaded.git
