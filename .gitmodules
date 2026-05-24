@@ -7,3 +7,6 @@
 [submodule "Piscina"]
 	path = Piscina
 	url = git@github.com:Pau-Narvaez-Roy/Piscina.git
+[submodule "Common-core/Milestone0/Libft"]
+	path = Common-core/Milestone0/Libft
+	url = git@github.com:Pau-Narvaez-Roy/Libft.git
