@@ -66,7 +66,7 @@ This repository primarily features projects written in:
 This repository uses Git submodules to manage multiple projects. To clone this repository with all submodules, use:
 
 ```bash
-git clone --recurse-submodules https://github.com/Pau-Narvaez-Roy/Mis-proyectos-42.git
+git clone --recurse-submodules git@github.com:Pau-Narvaez-Roy/Mis-proyectos-42.git
 ```
 
 Or if you've already cloned it, initialize submodules with:
