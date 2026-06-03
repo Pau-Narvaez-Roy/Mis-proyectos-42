@@ -1,9 +1,6 @@
 [submodule "C-piscine-reloaded"]
 	path = C-piscine-reloaded
 	url = git@github.com:Pau-Narvaez-Roy/C-piscine-reloaded.git
-[submodule "Libft"]
-	path = Libft
-	url = git@github.com:Pau-Narvaez-Roy/Libft.git
 [submodule "Piscina"]
 	path = Piscina
 	url = git@github.com:Pau-Narvaez-Roy/Piscina.git
