@@ -10,3 +10,6 @@
 [submodule "Common-core/Milestone0/Libft"]
 	path = Common-core/Milestone0/Libft
 	url = git@github.com:Pau-Narvaez-Roy/Libft.git
+[submodule "Common-core/Milestone1/push_swap"]
+        path = Common-core/Milestone1/push_swap
+        url = git@github.com:Pau-Narvaez-Roy/push_swap.git
