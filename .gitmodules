@@ -13,3 +13,6 @@
 [submodule "Common-core/Milestone1/push_swap"]
         path = Common-core/Milestone1/push_swap
         url = git@github.com:Pau-Narvaez-Roy/push_swap.git
+[submodule "Common-core/Milestone1/ft_printf"]
+	path = Common-core/Milestone1/ft_printf
+	url = git@github.com:Pau-Narvaez-Roy/ft_printf.git
