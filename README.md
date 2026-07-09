@@ -1,4 +1,4 @@
-# Mis Proyectos 42
+# My 42 Projects
 
 Welcome to my 42 school projects repository! This is a collection of my work from the 42 curriculum, organized by program and milestone.
 
@@ -100,4 +100,4 @@ All projects in this repository are part of the 42 school curriculum.
 
 ---
 
-**Last Updated:** May 24, 2026
+**Last Updated:** July 9, 2026
