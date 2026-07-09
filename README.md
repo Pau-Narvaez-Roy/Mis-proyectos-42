@@ -53,6 +53,29 @@ The first milestone of the common core curriculum.
 
 ---
 
+#### **Milestone 1**
+The second milestone of the common core curriculum, building on Libft foundations.
+
+- **ft_printf** - Custom printf implementation
+  - Recreates the functionality of the standard printf function
+  - Handles variable arguments and format specifiers
+  - Demonstrates advanced string formatting and memory management
+  - **Repository:** `Pau-Narvaez-Roy/ft_printf`
+
+- **get_next_line** - Read file line by line
+  - Reads and returns the next line from a file descriptor
+  - Handles multiple file descriptors simultaneously
+  - Implements efficient buffering mechanisms
+  - **Repository:** `Pau-Narvaez-Roy/get_next_line`
+
+- **push_swap** - Sorting algorithm project
+  - Sorts a stack of integers using two stacks and a limited set of operations
+  - Optimizes for minimal number of moves
+  - Explores algorithmic problem-solving and optimization techniques
+  - **Repository:** `Pau-Narvaez-Roy/push_swap`
+
+---
+
 ## 🛠️ Technologies Used
 
 This repository primarily features projects written in:
