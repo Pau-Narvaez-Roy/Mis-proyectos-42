@@ -25,3 +25,6 @@
 [submodule "Common-core/Milestone2/Python_01"]
 	path = Common-core/Milestone2/Python_01
 	url = git@github.com:Pau-Narvaez-Roy/Python_01.git
+[submodule "Common-core/Milestone2/A-Maze-ing"]
+	path = Common-core/Milestone2/A-Maze-ing
+	url = git@github.com:alcristo/alcristo_42_A_-Maze-ing.git
