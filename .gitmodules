@@ -31,3 +31,6 @@
 [submodule "Common-core/Milestone2/Python_02"]
 	path = Common-core/Milestone2/Python_02
 	url = git@github.com:Pau-Narvaez-Roy/Python_02.git
+[submodule "Common-core/Milestone2/Born2beroot"]
+	path = Common-core/Milestone2/Born2beroot
+	url = git@github.com:Pau-Narvaez-Roy/Born2beroot.git
