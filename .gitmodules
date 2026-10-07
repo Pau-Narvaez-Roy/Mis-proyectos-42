@@ -37,3 +37,6 @@
 [submodule "Common-core/Milestone2/Python_03"]
 	path = Common-core/Milestone2/Python_03
 	url = git@github.com:Pau-Narvaez-Roy/Python_03.git
+[submodule "Common-core/Milestone2/Python_04"]
+	path = Common-core/Milestone2/Python_04
+	url = git@github.com:Pau-Narvaez-Roy/Python_04.git
